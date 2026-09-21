@@ -1544,9 +1544,7 @@ export default function App() {
                     >
                       <option value="" disabled hidden>Please select…</option>
                       {EMPLOYER_COVER_TYPES.map((t) => (
-                        <option key={t} value={t}>
-                          {t === 'Private medical' ? 'Private medical insurance' : t}
-                        </option>
+                        <option key={t} value={t}>{t}</option>
                       ))}
                     </select>
                     <div className="pointer-events-none absolute right-[15px] top-1/2 -translate-y-1/2">
