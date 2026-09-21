@@ -1,0 +1,11 @@
+{
+  "title": "Existing protection (copy)",
+  "description": "Streamline life insurance policy data entry with a dynamic form that adapts to cover types, ensuring accurate information capture for advisers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

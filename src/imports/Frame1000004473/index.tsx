@@ -1,0 +1,158 @@
+import svgPaths from "./svg-pcn7iina1d";
+
+function IconChildChevronDownSmallNo({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative w-[15px]"} data-name="Icon child/Chevron down/Small/No">
+      <div className="flex flex-col items-center justify-center overflow-clip rounded-[inherit] size-full">
+        <div className="content-stretch flex flex-col items-center justify-center p-[2px] relative size-full">
+          <div className="h-[10px] relative shrink-0 w-[18px]" data-name="Vector">
+            <div className="absolute inset-[-3.13%_-1.74%]">
+              <svg className="block size-full" fill="none" height="10.625" preserveAspectRatio="none" viewBox="0 0 18.625 10.625" width="18.625">
+                <path d={svgPaths.pf1298c0} id="Vector" stroke="#231F20" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.625" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame1() {
+  return <div className="h-[8px] relative shrink-0 w-px" />;
+}
+
+function LabelText() {
+  return (
+    <div className="flex-[1_0_0] min-w-px relative" data-name="Label text">
+      <div className="flex flex-row items-end size-full">
+        <div className="content-stretch flex items-end pl-px relative size-full">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[#231f20] text-[16px] whitespace-nowrap">{`When did you last use this? `}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative">
+      <Frame1 />
+      <LabelText />
+    </div>
+  );
+}
+
+function Input() {
+  return (
+    <div className="bg-white flex-[1_0_0] min-w-px relative rounded-[6px]" data-name="Input">
+      <div className="overflow-clip rounded-[inherit] size-full">
+        <div className="content-stretch flex items-start pb-[10px] pt-[9px] px-[15px] relative size-full">
+          <p className="[word-break:break-word] font-['Lato:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#757575] text-[16px] whitespace-nowrap">Select timeframe</p>
+        </div>
+      </div>
+      <div aria-hidden className="absolute border border-[#67686b] border-solid inset-0 pointer-events-none rounded-[6px]" />
+    </div>
+  );
+}
+
+function Icon() {
+  return <div className="relative shrink-0 size-[15px]" data-name="Icon" />;
+}
+
+function Frame3() {
+  return <div className="h-[8px] relative shrink-0 w-px" />;
+}
+
+function LabelText1() {
+  return (
+    <div className="flex-[1_0_0] min-w-px relative" data-name="Label text">
+      <div className="flex flex-row items-end size-full">
+        <div className="content-stretch flex items-end pl-px relative size-full">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[#231f20] text-[16px] whitespace-nowrap">How frequently are you using this?</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame2() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative">
+      <Frame3 />
+      <LabelText1 />
+    </div>
+  );
+}
+
+function SelectInner() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] gap-[15px] items-center min-w-px relative" data-name="Select inner">
+      <p className="[word-break:break-word] flex-[1_0_0] font-['Lato:Regular',sans-serif] leading-[1.55] min-w-px not-italic relative text-[#757575] text-[16px]">Select frequency</p>
+      <IconChildChevronDownSmallNo className="relative shrink-0 w-[15px]" />
+    </div>
+  );
+}
+
+function Input1() {
+  return (
+    <div className="bg-white flex-[1_0_0] min-w-px relative rounded-[6px]" data-name="Input">
+      <div className="overflow-clip rounded-[inherit] size-full">
+        <div className="content-stretch flex items-start px-[15px] py-[7px] relative size-full">
+          <SelectInner />
+        </div>
+      </div>
+      <div aria-hidden className="absolute border border-[#67686b] border-solid inset-0 pointer-events-none rounded-[6px]" />
+    </div>
+  );
+}
+
+function Icon1() {
+  return <div className="relative shrink-0 size-[15px]" data-name="Icon" />;
+}
+
+export default function Frame4() {
+  return (
+    <div className="gap-x-px gap-y-[20px] grid grid-cols-[__10px_minmax(0,1fr)] grid-rows-[___fit-content(100%)_fit-content(100%)_0px] relative size-full">
+      <div className="col-2 justify-self-stretch relative row-1 self-stretch shrink-0" data-name="Input field">
+        <div className="content-stretch flex flex-col gap-[6px] items-start px-[16px] relative size-full">
+          <div className="relative shrink-0 w-[108px]" data-name="Label">
+            <div className="content-stretch flex items-start relative size-full">
+              <Frame />
+            </div>
+          </div>
+          <div className="relative shrink-0 w-full" data-name="Input">
+            <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
+              <div className="content-stretch flex gap-[8px] items-center justify-center pl-[2px] py-[2px] relative size-full">
+                <Input />
+                <Icon />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-2 justify-self-stretch relative row-2 self-stretch shrink-0" data-name="Input field">
+        <div className="content-stretch flex flex-col gap-[6px] items-start px-[16px] relative size-full">
+          <div className="relative shrink-0 w-[108px]" data-name="Label">
+            <div className="content-stretch flex items-start relative size-full">
+              <Frame2 />
+            </div>
+          </div>
+          <div className="relative shrink-0 w-full" data-name="Select">
+            <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
+              <div className="content-stretch flex gap-[8px] items-center justify-center pl-[2px] py-[2px] relative size-full">
+                <Input1 />
+                <Icon1 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 justify-self-stretch relative row-[1/span_3] self-stretch shrink-0" data-name="Nested field separator">
+        <div className="content-stretch flex items-start pr-[20px] relative size-full">
+          <div className="bg-[#c2c3c4] h-full relative shrink-0 w-[5px]" />
+        </div>
+      </div>
+    </div>
+  );
+}
