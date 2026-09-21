@@ -1442,10 +1442,13 @@ export default function App() {
 
         {/* ── Sticky context header — employer form ── */}
         {activeView.section === 'employer' && showEmployerForm && (() => {
+          const coverLabel = employerForm.coverType === 'Private medical'
+            ? 'Private medical insurance'
+            : employerForm.coverType
           const segments = [
-            employerForm.coverType || null,
+            coverLabel || null,
           ]
-          const label = editingEmployerIndex !== null ? `Benefit ${editingEmployerIndex + 1}` : 'New benefit'
+          const label = editingEmployerIndex !== null ? `Benefit ${editingEmployerIndex + 1}` : 'New benefit:'
           return (
             <StickyFormHeader
               label={label}
